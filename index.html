@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>GHemanth - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="split-layout">
+
+        <div class="left-pane">
+            <div class="left-content">
+                <h1 class="logo-name">GHemanth</h1>
+                <p class="logo-title"><span id="typewriter">Software Developer</span><span class="cursor"></span></p>
+                
+                <nav class="main-nav">
+                    <ul class="nav-menu">
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#education" class="nav-link">Education</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer-links">
+                    <a href="mailto:hemugummadi1111@gmail.com">Email</a>
+                    <a href="[Your LinkedIn URL]" target="_blank">LinkedIn</a>
+                    <a href="[Your GitHub URL]" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-pane">
+
+            <section id="about" class="hero section">
+                <div class="container">
+                    <div class="hero-content">
+                        <img src="avatar.jpeg" alt="GHemanth's Avatar" class="hero-avatar">
+                        <h2>Hi, I'm GHemanth</h2>
+                        <p class="hero-bio">
+                            I'm a passionate computer science student with software internship experience at <strong>Google</strong>. I specialize in C++, Java, and modern web technologies like React and Node.js.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="about-section section hidden">
+                <div class="container">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Data Structures & Algorithms (DSA)</li>
+                        <li>Node.js</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="projects" class="projects-section section hidden">
+                <div class="container">
+                    <h2 class="section-title">Personal Projects</h2>
+
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="cplusplus">C++</button>
+                        <button class="filter-btn" data-filter="database">Database</button>
+                    </div>
+
+                    <div class="project-grid">
+                        <div class="project-card project-item" data-category="database cplusplus">
+                            <h3>Movie Ticket Booking System</h3>
+                            <p>Designed and implemented a relational database (normalized to 3NF) using C++ and OOPS concepts. Handled transactions (COMMIT, ROLLBACK), joins, views, and indexes to manage bookings, user profiles, and showtimes.</p>
+                            <a href="[Link to GitHub Repo]" class="btn" target="_blank">View Source Code</a>
+                        </div>
+
+                        <div class="project-card project-item" data-category="cplusplus">
+                            <h3>BIGINT C++ Library</h3>
+                            <p>A C++ library to perform arithmetic on integers larger than the 'long long int' limit. Supports addition, subtraction, multiplication, division, modulo, and square root for massive numbers.</p>
+                            <a href="[Link to GitHub Repo]" class="btn" target="_blank">View Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="education-section section hidden">
+                <div class="container">
+                    <h2 class="section-title">Education</h2>
+                    
+                    <table class="education-table">
+                        <thead>
+                            <tr>
+                                <th>Degree/Course</th>
+                                <th>Institute / Board</th>
+                                <th>CGPA/Percentage</th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>B.Tech.</td>
+                                <td>Visvesvaraya National Institute of Technology, Nagpur</td>
+                                <td>7.4</td>
+                                <td>2022 - Present</td>
+                            </tr>
+                            <tr>
+                                <td>CLASS XII (BIEAP)</td>
+                                <td>Ramanuja Vidhaya Mandir</td>
+                                <td>87.1%</td>
+                                <td>2020-2022</td>
+                            </tr>
+                            <tr>
+                                <td>CLASS X (SSC)</td>
+                                <td>Bhashyam E.M. High School</td>
+                                <td>98.5%</td>
+                                <td>2020</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h2 class="section-title awards-heading">Awards & Recognition</h2>
+                    <div class="awards-entry">
+                        <h3>Award for Highest Marks in Mathematics</h3>
+                        <p>(During Graduation)</p>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="contact" class="footer section">
+                <div class="container">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p>You can reach me at <a href="mailto:hemugummadi1111@gmail.com">hemugummadi1111@gmail.com</a></p>
+                    <a href="[Link to GitHub repo for THIS portfolio]" class="btn" target="_blank">Portfolio Source Code</a>
+                </div>
+            </footer>
+        </div> </div> <a href="#about" id="scrollTopBtn" class="scroll-top-btn">
+        <span>&uarr;</span> 
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
